@@ -15,7 +15,7 @@ const LoginPage = () => {
   };
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="mockup-window bg-base-300 border w-1/3 ">
+      <div className="mockup-window bg-base-300 border w-1/3 max-[700px]:w-3/4 ">
         <h1 className="text-center text-2xl py-4">Login</h1>
         <form onSubmit={handleSubmit}>
           <div className="bg-base-200 flex flex-col justify-center gap-9 px-4 py-16">

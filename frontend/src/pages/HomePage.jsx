@@ -57,12 +57,12 @@ const HomePage = () => {
         <div className="flex flex-col justify-start items-center h-screen ">
           <button
             onClick={logout}
-            className="btn btn-active btn-neutral fixed right-6 top-6"
+            className="btn btn-active btn-neutral fixed right-6 top-6 z-50"
           >
             Logout
           </button>
           <div className="mockup-window bg-base-300 border w-4/5 my-8 ">
-            <div className="bg-base-200 flex justify-center gap-5 py-10 md:flex-col">
+            <div className="bg-base-200 flex justify-center gap-5 py-10 max-[700px]:flex-col items-center overflow-y-auto ">
               <div className="h-64 w-80 flex justify-center overflow-x-auto ">
                 <Columns tasks={tasks.todo} title={'Todo'} id={'todo'} />
               </div>
