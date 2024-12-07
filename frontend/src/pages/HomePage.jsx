@@ -62,7 +62,7 @@ const HomePage = () => {
             Logout
           </button>
           <div className="mockup-window bg-base-300 border w-4/5 my-8 ">
-            <div className="bg-base-200 flex justify-center gap-5 py-10">
+            <div className="bg-base-200 flex justify-center gap-5 py-10 md:flex-col">
               <div className="h-64 w-80 flex justify-center overflow-x-auto ">
                 <Columns tasks={tasks.todo} title={'Todo'} id={'todo'} />
               </div>
